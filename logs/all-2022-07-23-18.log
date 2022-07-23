@@ -1,0 +1,108 @@
+2022-07-23 18:38:42:3842 [32minfo[39m: [32mStarting game server...[39m
+2022-07-23 18:43:44:4344 [32minfo[39m: [32mStarting game server...[39m
+2022-07-23 18:44:19:4419 [32minfo[39m: [32mStarting game server...[39m
+2022-07-23 18:44:38:4438 [32minfo[39m: [32mStarting game server...[39m
+2022-07-23 18:45:15:4515 [32minfo[39m: [32mStarting game server...[39m
+2022-07-23 18:58:39:5839 [37mdebug[39m: [37mRoom created[39m
+2022-07-23 18:58:39:5839 [37mdebug[39m: [37mAuth client: [39m
+2022-07-23 18:58:39:5839 [37mdebug[39m: [37mWebSocketClient {[39m
+[37m  id: '5hR-1FccD',[39m
+[37m  ref: <ref *1> WebSocket {[39m
+[37m    _events: [Object: null prototype] {[39m
+[37m      close: [Array],[39m
+[37m      error: [Function (anonymous)],[39m
+[37m      pong: [Function: heartbeat][39m
+[37m    },[39m
+[37m    _eventsCount: 3,[39m
+[37m    _maxListeners: undefined,[39m
+[37m    _binaryType: 'nodebuffer',[39m
+[37m    _closeCode: 1006,[39m
+[37m    _closeFrameReceived: false,[39m
+[37m    _closeFrameSent: false,[39m
+[37m    _closeMessage: '',[39m
+[37m    _closeTimer: null,[39m
+[37m    _extensions: {},[39m
+[37m    _protocol: '',[39m
+[37m    _readyState: 1,[39m
+[37m    _receiver: Receiver {[39m
+[37m      _writableState: [WritableState],[39m
+[37m      _events: [Object: null prototype],[39m
+[37m      _eventsCount: 6,[39m
+[37m      _maxListeners: undefined,[39m
+[37m      _binaryType: 'nodebuffer',[39m
+[37m      _extensions: {},[39m
+[37m      _isServer: true,[39m
+[37m      _maxPayload: 104857600,[39m
+[37m      _bufferedBytes: 0,[39m
+[37m      _buffers: [],[39m
+[37m      _compressed: false,[39m
+[37m      _payloadLength: 0,[39m
+[37m      _mask: undefined,[39m
+[37m      _fragmented: 0,[39m
+[37m      _masked: false,[39m
+[37m      _fin: false,[39m
+[37m      _opcode: 0,[39m
+[37m      _totalPayloadLength: 0,[39m
+[37m      _messageLength: 0,[39m
+[37m      _fragments: [],[39m
+[37m      _state: 0,[39m
+[37m      _loop: false,[39m
+[37m      [Symbol(kCapture)]: false,[39m
+[37m      [Symbol(websocket)]: [Circular *1][39m
+[37m    },[39m
+[37m    _sender: Sender {[39m
+[37m      _extensions: {},[39m
+[37m      _socket: [Socket],[39m
+[37m      _firstFragment: true,[39m
+[37m      _compress: false,[39m
+[37m      _bufferedBytes: 0,[39m
+[37m      _deflating: false,[39m
+[37m      _queue: [][39m
+[37m    },[39m
+[37m    _socket: Socket {[39m
+[37m      connecting: false,[39m
+[37m      _hadError: false,[39m
+[37m      _parent: null,[39m
+[37m      _host: null,[39m
+[37m      _readableState: [ReadableState],[39m
+[37m      _events: [Object: null prototype],[39m
+[37m      _eventsCount: 4,[39m
+[37m      _maxListeners: undefined,[39m
+[37m      _writableState: [WritableState],[39m
+[37m      allowHalfOpen: true,[39m
+[37m      _sockname: null,[39m
+[37m      _pendingData: null,[39m
+[37m      _pendingEncoding: '',[39m
+[37m      server: [Server],[39m
+[37m      _server: [Server],[39m
+[37m      parser: null,[39m
+[37m      on: [Function (anonymous)],[39m
+[37m      addListener: [Function (anonymous)],[39m
+[37m      prependListener: [Function: prependListener],[39m
+[37m      _paused: false,[39m
+[37m      timeout: 0,[39m
+[37m      [Symbol(async_id_symbol)]: 106,[39m
+[37m      [Symbol(kHandle)]: [TCP],[39m
+[37m      [Symbol(kSetNoDelay)]: true,[39m
+[37m      [Symbol(lastWriteQueueSize)]: 0,[39m
+[37m      [Symbol(timeout)]: null,[39m
+[37m      [Symbol(kBuffer)]: null,[39m
+[37m      [Symbol(kBufferCb)]: null,[39m
+[37m      [Symbol(kBufferGen)]: null,[39m
+[37m      [Symbol(kCapture)]: false,[39m
+[37m      [Symbol(kBytesRead)]: 0,[39m
+[37m      [Symbol(kBytesWritten)]: 0,[39m
+[37m      [Symbol(RequestTimeout)]: undefined,[39m
+[37m      [Symbol(websocket)]: [Circular *1][39m
+[37m    },[39m
+[37m    _isServer: true,[39m
+[37m    pingCount: 0,[39m
+[37m    onleave: [Function: bound _onLeave] AsyncFunction,[39m
+[37m    [Symbol(kCapture)]: false[39m
+[37m  },[39m
+[37m  sessionId: '5hR-1FccD',[39m
+[37m  state: 0,[39m
+[37m  _enqueuedMessages: [],[39m
+[37m  _afterNextPatchQueue: [][39m
+[37m}[39m
+2022-07-23 18:58:39:5839 [37mdebug[39m: [37mDisposing room...[39m
