@@ -3,6 +3,7 @@ import { Express } from 'express'
 import { createServer } from 'http'
 import { Server } from 'colyseus'
 import { Chat } from '../rooms/chat'
+import { envVars } from '../config/env'
 
 export const gameLoader = (app: Express): void => {
   Logger.info('Starting game server...')
@@ -14,7 +15,6 @@ export const gameLoader = (app: Express): void => {
   })
 
   gameServer.define('chat', Chat)
-  const colyseusPort = 2567
-  gameServer.listen(colyseusPort)
-  console.log(`Colyseus listening on ws://localhost:${colyseusPort}`)
+  gameServer.listen(+(<string>envVars.app.port))
+  console.log(`Colyseus listening on ws://localhost:${envVars.app.port}`)
 }
