@@ -11,8 +11,10 @@ export class Chat extends Room {
     this.onMessage('chat', (client: Client, message: string) => {
       if (this.state.users.has(client.sessionId))
         this.state.messages.push({ user: this.state.users.get(client.sessionId), message: message })
-      this.broadcast('chat', `(${this.state.users.get(client.sessionId)}): ${message}`)
       this.broadcast('messages', this.state.messages)
+    })
+    this.onMessage('typing', (client: Client, message: string) => {
+      this.broadcast('typing', { user: this.state.users.get(client.sessionId), message: message })
     })
   }
 
